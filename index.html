@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+     <title> CodSoft || Portfolio</title> 
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="#">Santhosh</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <section class="home">
+    <header>
+        <h3>HEY! I AM </h3>
+        <h1>Santhosh</h1>
+        <p>A passionate full stack developer having an experience of building web and mobile applications with Javascript/ ReactJs/ NodeJs and some other cool libraries and frameworks</p>
+      </header>
+  </section>
+
+  <section class="about">
+    <img src="man.jpg" alt="About me" class="about__image">
+    <div class="about__content">
+      <h2>About Me</h2>
+      <p>Experienced in both frontend and backend development, I thrive on creating innovative solutions that merge technology with real-world applications. My goal is to leverage technology to make a positive impact and drive meaningful change.</p>
+      <ul>
+        <li><span class="label">Name:</span> Santhosh E</li>
+        <li><span class="label">Date of birth:</span> April 17, 2004</li>
+        <li><span class="label">Address:</span> Batlagundu, Tamil nadu.</li>
+        <li><span class="label">Email:</span> santhoshcse18@gmail.com</li>
+        <li><span class="label">Phone:</span> +91 9344063583</li>
+      </ul>
+    </div>
+  </section>
+
+  
+  
+
+  <script>
+  let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+</html>
