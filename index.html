@@ -5,11 +5,12 @@
     <title> CodSoft || Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
         <div class="nav-content">
-            <div class="logo">
+          <div class="logo">
                 <a href="#">Santhosh</a>
             </div>
             <ul class="nav-links">
@@ -17,23 +18,30 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
-
+<!--Header-->
     <section class="home">
         <header>
             <h3>HEY! I AM </h3>
             <h1>Santhosh</h1>
             <p>A passionate full stack developer having an experience of building web and mobile applications with Javascript/ ReactJs/ NodeJs and some other cool libraries and frameworks</p>
+            <div class="buttonholder">
+               <a href="#contact"><i class="fa-solid fa-message" style="color: #ffffff;"></i>  Contact Me</a>
+            <a href="./Santhosh's Resume.pdf" target="_blank"><i class="fa-solid fa-file" style="color: #ffffff;"></i>   View My Resume</a>
+            </div>
+            
         </header>
     </section>
 
+<!--About me-->
+
     <section class="about" id="about">
-        <img src="man.jpg" alt="About me" class="about__image">
+       <img src="./img/mypic2.jpeg" alt="About me" class="about__image">
         <div class="about__content">
-            <h2>About Me</h2>
+         <h2>About Me</h2>
             <p>Experienced in both frontend and backend development, I thrive on creating innovative solutions that merge technology with real-world applications. My goal is to leverage technology to make a positive impact and drive meaningful change.</p>
             <ul>
                 <li><span class="label">Name:</span> Santhosh E</li>
@@ -45,74 +53,76 @@
         </div>
     </section>
 
+<!--Skills-->
+
     <section class="skills" id="skills">
-        <h2>Skills</h2> 
+     <h2>Skills</h2> 
         <div class="skill-container">
-            <div class="skill">
-                <div class="circle" style="--percentage: 90%">
+          <div class="skill">
+                <div class="circle" style="--percentage: 95%">
                     <span>95%</span>
                 </div>
-                <p>HTML</p>
+            <p><i class="fa-brands fa-html5" style="color: #248add;"></i>   HTML</p>
+            </div>
+            <div class="skill">
+                <div class="circle" style="--percentage: 90%">
+                    <span>90%</span>
+                </div>
+                <p><i class="fa-brands fa-css3-alt" style="color: #248add;"></i>  CSS</p>
             </div>
             <div class="skill">
                 <div class="circle" style="--percentage: 80%">
-                    <span>90%</span>
-                </div>
-                <p>CSS</p>
-            </div>
-            <div class="skill">
-                <div class="circle" style="--percentage: 75%">
                     <span>80%</span>
                 </div>
-                <p>Bootstrap</p>
+                <p><i class="fa-brands fa-bootstrap" style="color: #248add;"></i>  Bootstrap</p>
             </div>
             <div class="skill">
               <div class="circle" style="--percentage: 75%">
                   <span>75%</span>
               </div>
-              <p>Javascript</p>
+              <p><i class="fa-brands fa-js" style="color: #248add;"></i>  Javascript</p>
           </div>
           <div class="skill">
             <div class="circle" style="--percentage: 75%">
                 <span>75%</span>
             </div>
-            <p>NodeJs</p>
+            <p><i class="fa-solid fa-file-code" style="color: #248add;"></i>  NodeJs</p>
         </div>
         <div class="skill">
-          <div class="circle" style="--percentage: 75%">
+          <div class="circle" style="--percentage: 70%">
               <span>70%</span>
           </div>
-          <p>ExpressJs</p>
+          <p><i class="fa-solid fa-file-code" style="color: #248add;"></i>  ExpressJs</p>
       </div>
       <div class="skill">
-        <div class="circle" style="--percentage: 75%">
+        <div class="circle" style="--percentage: 80%">
             <span>80%</span>
         </div>
-        <p>MySql</p>
+        <p><i class="fa-solid fa-database" style="color: #248add;"></i>  MySql</p>
     </div>
     <div class="skill">
-      <div class="circle" style="--percentage: 80%">
+      <div class="circle" style="--percentage: 60%">
           <span>60%</span>
       </div>
-      <p>ReactJs</p>
+      <p><i class="fa-brands fa-react" style="color: #248add;"></i>   ReactJs</p>
   </div>
   <div class="skill">
-    <div class="circle" style="--percentage: 80%">
+    <div class="circle" style="--percentage: 50%">
         <span>50%</span>
     </div>
-    <p>Python</p>
+    <p><i class="fa-brands fa-python" style="color: #248add;"></i>   Python</p>
 </div>
 <div class="skill">
-  <div class="circle" style="--percentage: 80%">
+  <div class="circle" style="--percentage: 70%">
       <span>70%</span>
   </div>
-  <p>Rest API</p>
+  <p><i class="fa-solid fa-gear" style="color: #248add;"></i>   Rest API</p>
 </div>
 <div class="skill">
   <div class="circle" style="--percentage: 80%">
       <span>80%</span>
   </div>
-  <p>Mongo DB</p>
+  <p><i class="fa-solid fa-database" style="color: #248add;"></i>   Mongo DB</p>
 </div>
         </div>
         
@@ -188,6 +198,49 @@
   </div>
   </div>
     </section>
+
+<!--Contact-->
+<section class="contact" id="contact">
+    <div class="service">
+        <h6 style="color: #248add;">Let's Talk Now ______</h6>
+        <h1>Do You Have A Project In Your Mind? </h1>
+        <h5>Services</h5>
+        <ul>
+            <li><i class="fa-solid fa-circle-check" style="color: #248add;"></i>  Web Development</li>
+            <li><i class="fa-solid fa-circle-check" style="color: #248add;"></i>  Full Stack Development</li>
+            <li><i class="fa-solid fa-circle-check" style="color: #248add;"></i>  UI & UX</li>
+            <li><i class="fa-solid fa-circle-check" style="color: #248add;"></i>  Video Editing</li>
+        </ul>
+        <h5>Follow on</h5>
+        <div class="media" style="margin-top: 2vh;">
+            <a href="https://www.instagram.com/santhosh._18/" target="_blank"><i class="fa-brands fa-instagram" style="color: #248add;"></i></a>
+            <a href="https://www.linkedin.com/in/santhosh-e-93036a259/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #248add;"></i></a>
+            <a href="https://github.com/Santhosh174" target="_blank"><i class="fa-brands fa-github" style="color: #248add;"></i></a>
+        </div>
+    </div>
+    <div class="form">
+        <form>
+          <input type="text" name="username" placeholder="Name" required><br>
+            <input type="email" name="email" placeholder="Email Address" required><br>
+            <select id="option" name="options"  required>
+                <option value="" disabled selected >Choose services</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Full Stack Development">Full Stack Development</option>
+                <option value="UI & UX">UI & UX</option>
+                <option value="Video Editing">Video Editing</option>
+            </select><br>
+            <textarea name="message" placeholder="Write Message" required></textarea><br>
+            <input type="submit" name="submit" value="Send Message">
+        </form>
+    </div>
+
+</section>
+
+<!--footer-->
+<footer>
+    <hr>
+    <small>&copy All Copyright 2024 by Santhosh</small>
+</footer>
 
     <script>
         let nav = document.querySelector("nav");
