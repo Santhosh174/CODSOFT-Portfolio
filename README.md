@@ -1,4 +1,4 @@
-# CODSOFT-Portfolio
+# My-Portfolio
 
 This is my personal portfolio website. The portfolio showcases my skills, projects, and contact information.
 
@@ -19,12 +19,12 @@ To view or modify this project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/Santhosh174/CODSOFT-Portfolio.git
+    git clone https://github.com/Santhosh174/My-Portfolio.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd CODSOFT-Portfolio
+    cd My-Portfolio
     ```
 
 3. **Open the `index.html` file in your browser**:
