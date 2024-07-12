@@ -1,6 +1,6 @@
 # CODSOFT-Portfolio
 
-This is my personal portfolio website, developed as part of my internship with Codsoft (Task 1). The portfolio showcases my skills, projects, and contact information.
+This is my personal portfolio website. The portfolio showcases my skills, projects, and contact information.
 
 ## Overview
 
